@@ -58,8 +58,6 @@ less = pygame.Rect((355, 350, 30, 30))
 lesstxt = fontSmaller.render("-",True,(0,0,0))
 more = pygame.Rect((450, 350, 30, 30))
 moretxt = fontSmaller.render("+",True,(0,0,0))
-switchImg = pygame.image.load('switch.png')
-switchImg = pygame.transform.scale(switchImg,(50,50))
 
 
 credits = pygame.Rect((0, 550, SCREENWIDTH, 50))
